@@ -926,6 +926,9 @@ footer{
     }
 
     .firstSide{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
         margin-left: 0;
         width: 100%;
         
@@ -946,8 +949,8 @@ footer{
 
     }
     .card{
-        width: 150px;
-        height: 160px;
+        width: 130px;
+        height: 140px;
      
 
     }
@@ -1075,7 +1078,7 @@ footer{
     }
     .text h1{
         width: 440px;
-        font-size: 48px;
+        font-size: 44px;
         display: inline;
         text-align: center;
     }
@@ -1158,7 +1161,7 @@ footer{
         justify-content: center;
     }
     .portfolio{
-        width: 340px;
+        width: 320px;
         height: 508px;
         right: 10%;
         gap: 10px;
@@ -1177,7 +1180,7 @@ footer{
         height: 1600px;
         align-items: center;
     }
-
+    
     .tophalf{
         height: 900px;
 
@@ -1194,7 +1197,7 @@ footer{
     #portrait2{
         width: 278px!important;
         height: 371px!important;
-        left: 130px;
+        left: 80px;
     
     }
     .aboutUsText{
@@ -1202,22 +1205,24 @@ footer{
         width: 297px;
         height: 493;
         top: 00px;
-        left: 100px;
+        left: 80px;
     }
     .aboutUsTextContent h1{
         font-size: 30px;
     }
     .ourWay{
-        height: 1245px;
+        height: 1345px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         gap: 100px;
     }
     .journey{
+    
         display: flex;
         flex-direction: column;
         gap: 30px;
+       margin-left: -30px;
         
         
     }
@@ -1236,7 +1241,7 @@ footer{
     }
 
     footer{
-        height: 1700px;
+        height: 1800px;
         align-items: flex-start;
         
         
@@ -1251,8 +1256,7 @@ footer{
        
     }
     .leftSide{
-    
-        width: 350px;
+        width: 335px;
         height: 807px;
     }
     
@@ -1263,11 +1267,13 @@ footer{
         gap: 20px;
     }
     .rightSide{
-        width: 355px;
-        height: 877px;
+        width: 335px;
+        height: 977px;
     }
 
-    
+    .inputHolder{
+        margin-left: -20px;
+    }
     .inputHolder input{
         width: 300px;
         
